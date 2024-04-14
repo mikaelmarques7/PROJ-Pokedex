@@ -9,26 +9,15 @@
 
 body {
     text-align: center;
-    background-image: url(../imagens/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center center ;
-    max-width: 100%;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,249,27,1) 53%, rgba(255,210,2,1) 91%);
     
 }
 
-
-.cabecalho h1 {
-    border: 2px solid #000;
-    border-radius: 5px;
-    width: 25%;
-    background-color: #2B2B2A;
-    color: #ffff;
-    text-align: center;
-    margin: 5px auto;
-    box-shadow: -2px 2px 0 #2c2c2c;
-    font-size: clamp(5px, 5vw, 2rem);
-    text-align: center;
+.cabecalho .logo-pokedex{
+    max-width: 275px;
+    width: 200px;
+    margin: auto;
 }
 
 
@@ -41,7 +30,7 @@ main {
 
 .pokedex {
     width: 100%;
-    max-width: 425px;
+    max-width: 450px;
 }
 
 .pokemon-imagem {
